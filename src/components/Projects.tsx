@@ -33,6 +33,16 @@ export default function Projects() {
     },
     {
       id: 2,
+      title: 'Modern Portfolio Website',
+      description: 'Responsive portfolio website with GSAP animations, dark mode toggle, and functional contact form integration.',
+      category: 'frontend',
+      image: 'https://res.cloudinary.com/dkd3k6eau/image/upload/v1772240121/Screenshot_2026-02-28_at_01.52.56_frkzik.png',
+      tags: ['Next.js', 'TypeScript', 'GSAP', 'TailwindCSS', 'Web3Forms'],
+      github: 'https://github.com/SAMMBENDE/portfolio-2026',
+      demo: 'https://portfolio-2026-nine-weld.vercel.app',
+    },
+    {
+      id: 3,
       title: 'Social Media Dashboard',
       description: 'Analytics dashboard for social media metrics with real-time data visualization and insights.',
       category: 'frontend',
@@ -42,7 +52,7 @@ export default function Projects() {
       demo: 'https://demo.com',
     },
     {
-      id: 3,
+      id: 4,
       title: 'Task Management API',
       description: 'RESTful API for task management with authentication, authorization, and real-time updates.',
       category: 'backend',
@@ -52,7 +62,7 @@ export default function Projects() {
       demo: null,
     },
     {
-      id: 4,
+      id: 5,
       title: 'Weather Forecast App',
       description: 'Beautiful weather application with location-based forecasts and interactive maps.',
       category: 'frontend',
@@ -62,7 +72,7 @@ export default function Projects() {
       demo: 'https://demo.com',
     },
     {
-      id: 5,
+      id: 6,
       title: 'Esona',
       description: 'Premium Vacation Rentals platform with markdown support and SEO optimization.',
       category: 'fullstack',
@@ -72,7 +82,7 @@ export default function Projects() {
       demo: 'https://sammbende.github.io/esona/',
     },
     {
-      id: 6,
+      id: 7,
       title: 'Real-time Chat App',
       description: 'WebSocket-based chat application with rooms, direct messaging, and file sharing.',
       category: 'fullstack',

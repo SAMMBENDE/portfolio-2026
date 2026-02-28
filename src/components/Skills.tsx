@@ -71,7 +71,11 @@ export default function Skills() {
         },
         {
           title: 'Backend',
-          skills: ['Node.js', 'Express', 'REST APIs'],
+          skills: ['Node.js', 'Express', 'REST APIs', 'Bash Scripting'],
+        },
+        {
+          title: 'Command Line & OS',
+          skills: ['Linux', 'macOS', 'Windows', 'Command Line'],
         },
       ],
     },
@@ -87,11 +91,15 @@ export default function Skills() {
           skills: ['MongoDB', 'PostgreSQL'],
         },
         {
-          title: 'Deployment & Cloud',
-          skills: ['Vercel', 'Netlify'],
+          title: 'Cloud & DevOps',
+          skills: ['AWS', 'Docker', 'Cloudinary', 'Vercel', 'Netlify'],
         },
         {
-          title: 'Tools',
+          title: 'AI & Automation',
+          skills: ['OpenAI API', 'GitHub Copilot'],
+        },
+        {
+          title: 'Development Tools',
           skills: ['Postman', 'Git', 'GitHub'],
         },
       ],
@@ -106,6 +114,24 @@ export default function Skills() {
             'Mobile-first & responsive UI',
             'API integration',
             'Component-based architecture',
+            'Agile methodologies',
+            'Design thinking',
+          ],
+        },
+      ],
+    },
+    {
+      category: 'Cybersecurity',
+      sections: [
+        {
+          title: 'IBM Certified Skills',
+          skills: [
+            'Cryptography',
+            'Cyber Threat Analysis',
+            'Threat Detection',
+            'Vulnerability Management',
+            'Incident Response',
+            'Information Security',
           ],
         },
       ],
@@ -122,6 +148,7 @@ export default function Skills() {
             'Adaptability',
             'Time Management',
             'Continuous Learning',
+            'Creative Thinking',
           ],
         },
       ],

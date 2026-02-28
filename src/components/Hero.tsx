@@ -113,10 +113,10 @@ export default function Hero() {
               ref={subtitleRef}
               className="text-xl sm:text-2xl md:text-3xl text-gray-700 dark:text-gray-300 mb-8"
             >
-              Software Engineer & Creative Problem Solver
+              Software Engineer & Digital Solutions Architect
               <br />
               <span className="text-lg sm:text-xl text-gray-600 dark:text-gray-400">
-                Building beautiful, functional web experiences
+                Building scalable, high-performance web applications and digital products.
               </span>
             </p>
 

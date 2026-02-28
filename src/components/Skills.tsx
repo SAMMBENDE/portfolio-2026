@@ -92,7 +92,7 @@ export default function Skills() {
         },
         {
           title: 'Cloud & DevOps',
-          skills: ['AWS', 'Docker', 'Cloudinary', 'Vercel', 'Netlify'],
+          skills: ['AWS', 'Docker', 'Cloudinary', 'Vercel', 'Hostinger'],
         },
         {
           title: 'AI & Automation',

@@ -88,23 +88,24 @@ export default function About() {
         <h2 className="text-4xl sm:text-5xl font-bold text-center mb-6">
           <span className="gradient-text">About Me</span>
         </h2>
-        
+
         <p className="text-center text-gray-600 dark:text-gray-400 mb-12 max-w-3xl mx-auto text-lg">
-          Passionate developer with a love for creating innovative web solutions
+          Full-Stack JavaScript Engineer
         </p>
 
         {/* About Content */}
         <div className="max-w-4xl mx-auto mb-16">
           <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-          I&apos;m a full-stack developer with experience building modern web applications
-          using the latest technologies. I specialize in React, Next.js, TypeScript,
-          and Node.js, with a strong focus on creating intuitive user experiences
-          and performant applications.
-        </p>
-        <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-          When I&apos;m not coding, you&apos;ll find me exploring new technologies, contributing
-            to open-source projects, or sharing knowledge with the developer community.
-            I believe in continuous learning and always strive to improve my craft.
+            I&apos;m a Full-Stack JavaScript Engineer passionate about building scalable, high-performance digital products.
+          </p>
+          <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
+            I specialize in React, Next.js, TypeScript, and Node.js — crafting modern web applications with clean architecture and seamless user experiences.
+          </p>
+          <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
+            Beyond development, I&apos;m also a professional DJ with hundreds of live performances. Performing in front of diverse audiences has sharpened my creativity, adaptability, and ability to deliver under pressure — skills I bring into every project I build.
+          </p>
+          <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+            I believe in continuous learning, shipping quality work, and building technology that makes a real impact.
           </p>
         </div>
 

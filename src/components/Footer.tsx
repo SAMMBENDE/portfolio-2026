@@ -1,0 +1,50 @@
+'use client'
+
+import { FiGithub, FiLinkedin, FiTwitter, FiMail } from 'react-icons/fi'
+
+/**
+ * Footer Component
+ * Contains social links and copyright information
+ */
+export default function Footer() {
+  const currentYear = new Date().getFullYear()
+
+  const socialLinks = [
+    { icon: FiGithub, href: 'https://github.com', label: 'GitHub' },
+    { icon: FiLinkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
+    { icon: FiTwitter, href: 'https://twitter.com', label: 'Twitter' },
+    { icon: FiMail, href: 'mailto:your.email@example.com', label: 'Email' },
+  ]
+
+  return (
+    <footer className="bg-gray-100 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="flex flex-col items-center space-y-4">
+          {/* Social Links */}
+          <div className="flex space-x-6">
+            {socialLinks.map((social) => {
+              const Icon = social.icon
+              return (
+                <a
+                  key={social.label}
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors"
+                  aria-label={social.label}
+                >
+                  <Icon className="w-6 h-6" />
+                </a>
+              )
+            })}
+          </div>
+
+          {/* Copyright */}
+          <p className="text-gray-600 dark:text-gray-400 text-sm text-center">
+            © {currentYear} Portfolio 2026. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  )
+}

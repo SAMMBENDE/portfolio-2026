@@ -67,7 +67,7 @@ export default function Skills() {
       sections: [
         {
           title: 'Frontend',
-          skills: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Next.js', 'TailwindCSS'],
+          skills: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React.js', 'Next.js', 'TailwindCSS'],
         },
         {
           title: 'Backend',
@@ -129,9 +129,11 @@ export default function Skills() {
             'Cryptography',
             'Cyber Threat Analysis',
             'Threat Detection',
+            'Cyber Threat Intelligence',            
             'Vulnerability Management',
             'Incident Response',
             'Information Security',
+            'Cybersecurity Risk Management',
           ],
         },
       ],

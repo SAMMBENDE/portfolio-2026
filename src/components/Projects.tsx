@@ -83,13 +83,13 @@ export default function Projects() {
     },
     {
       id: 7,
-      title: 'Real-time Chat App',
+      title: 'QR Code Generator',
       description: 'WebSocket-based chat application with rooms, direct messaging, and file sharing.',
       category: 'fullstack',
-      image: 'https://images.unsplash.com/photo-1611606063065-ee7946f0787a?w=600&h=400&fit=crop',
+      image: 'https://res.cloudinary.com/dkd3k6eau/image/upload/v1773089239/Screenshot_2026-03-09_at_21.46.36_mksgse.png',
       tags: ['Socket.io', 'React', 'Node.js', 'Redis'],
-      github: 'https://github.com',
-      demo: 'https://demo.com',
+      github: 'https://github.com/SAMMBENDE/QR-Code-Generator',
+      demo: 'https://sammbende.github.io/QR-Code-Generator/',
     },
     {
       id: 8,

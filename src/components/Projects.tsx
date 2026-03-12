@@ -26,7 +26,7 @@ export default function Projects() {
       title: 'Afrobizz',
       description: 'Full-stack Business & listing solution with payment integration, tier system, and admin dashboard.',
       category: 'fullstack',
-      image: 'https://res.cloudinary.com/dkd3k6eau/image/upload/v1772235398/Screenshot_2026-02-28_at_00.36.01_zqopky.png',
+      image: 'https://res.cloudinary.com/dkd3k6eau/image/upload/v1772291364/rkivvwpafjuig0wtzebw.jpg',
       tags: ['Next.js', 'TypeScript', 'Stripe', 'PayPal', 'MongoDB'],
       github: 'https://github.com/SBMBENDE/mixxfactory',
       demo: 'https://afrobizz.com/',
@@ -46,7 +46,7 @@ export default function Projects() {
       title: 'Digital Agency',
       description: 'Innovative digital solutions for startups and modern businesses.',
       category: 'frontend',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
+      image: 'https://res.cloudinary.com/dkd3k6eau/image/upload/v1769949014/professionals/c1mjhffg4idrdawlicdf.jpg',
       tags: ['Wordpress', 'PHP',  'Hostinger'],
       github: 'https://github.com',
       demo: 'https://digicorepro.com/',
@@ -84,10 +84,10 @@ export default function Projects() {
     {
       id: 7,
       title: 'QR Code Generator',
-      description: 'WebSocket-based chat application with rooms, direct messaging, and file sharing.',
+      description: 'A simple tool that instantly converts any URL into a downloadable QR code.',
       category: 'fullstack',
       image: 'https://res.cloudinary.com/dkd3k6eau/image/upload/v1773089239/Screenshot_2026-03-09_at_21.46.36_mksgse.png',
-      tags: ['Socket.io', 'React', 'Node.js', 'Redis'],
+      tags: ['HTML5', 'CSS3', 'JavaScript', 'QRCode.js'],
       github: 'https://github.com/SAMMBENDE/QR-Code-Generator',
       demo: 'https://sammbende.github.io/QR-Code-Generator/',
     },
@@ -101,6 +101,16 @@ export default function Projects() {
       github: 'https://github.com/SAMMBENDE/DJ-Maitre-Sam',
       demo: 'https://sammbende.github.io/DJ-Maitre-Sam/',
     },
+      {
+      id: 5,
+      title: 'Text to Speech Converter',
+      description: 'Convert text into natural-sounding speech with multiple voice options.',
+      category: 'frontend',
+      image: 'https://images.unsplash.com/photo-1589254065878-42c9da997008?w=600&h=400&fit=crop',
+      tags: ['HTML5', 'CSS3', 'JavaScript', 'Web Speech API'],
+        github: 'https://github.com/SAMMBENDE/text_to_voice_converter',
+        demo: 'https://sammbende.github.io/text_to_voice_converter/',
+      },
   ]
 
   const categories = [

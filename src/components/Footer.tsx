@@ -1,6 +1,7 @@
 'use client'
 
-import { FiGithub, FiLinkedin, FiTwitter, FiMail } from 'react-icons/fi'
+import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi'
+import { FaXTwitter } from 'react-icons/fa6'
 
 /**
  * Footer Component
@@ -10,10 +11,10 @@ export default function Footer() {
   const currentYear = new Date().getFullYear()
 
   const socialLinks = [
-    { icon: FiGithub, href: 'https://github.com', label: 'GitHub' },
-    { icon: FiLinkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: FiTwitter, href: 'https://twitter.com', label: 'Twitter' },
-    { icon: FiMail, href: 'mailto:your.email@example.com', label: 'Email' },
+    { icon: FiGithub, href: 'https://github.com/SAMMBENDE', label: 'GitHub' },
+    { icon: FiLinkedin, href: 'https://www.linkedin.com/in/sampson-mbende/', label: 'LinkedIn' },
+    { icon: FaXTwitter, href: 'https://x.com/DigicoreP', label: 'X' },
+    { icon: FiMail, href: 'mailto:sam.mbende2@gmail.com', label: 'Email' },
   ]
 
   return (

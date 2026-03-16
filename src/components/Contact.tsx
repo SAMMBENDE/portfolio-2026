@@ -118,8 +118,8 @@ export default function Contact() {
     {
       icon: FiMail,
       label: 'Email',
-      value: 'sam.mbende2@gmail.com',
-      href: 'mailto:sam.mbende2@gmail.com',
+      value: 'mbende2000@yahoo.com',
+      href: 'mailto:mbende2000@yahoo.com',
     },
     {
       icon: FiPhone,

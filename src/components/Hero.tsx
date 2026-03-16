@@ -113,7 +113,7 @@ export default function Hero() {
               ref={subtitleRef}
               className="text-xl sm:text-2xl md:text-3xl text-gray-700 dark:text-gray-300 mb-8"
             >
-              Software Engineer & Digital Solutions Architect
+              Full-Stack JavaScript Developer
               <br />
               <span className="text-lg sm:text-xl text-gray-600 dark:text-gray-400">
                 Building scalable, high-performance web applications and digital products.

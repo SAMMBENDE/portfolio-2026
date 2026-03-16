@@ -14,7 +14,7 @@ export default function Footer() {
     { icon: FiGithub, href: 'https://github.com/SAMMBENDE', label: 'GitHub' },
     { icon: FiLinkedin, href: 'https://www.linkedin.com/in/sampson-mbende/', label: 'LinkedIn' },
     { icon: FaXTwitter, href: 'https://x.com/DigicoreP', label: 'X' },
-    { icon: FiMail, href: 'mailto:sam.mbende2@gmail.com', label: 'Email' },
+    { icon: FiMail, href: 'mailto:mbende2000@yahoo.com', label: 'Email' },
   ]
 
   return (

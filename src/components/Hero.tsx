@@ -86,7 +86,7 @@ export default function Hero() {
             <div className="relative">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="https://res.cloudinary.com/dkd3k6eau/image/upload/v1772233916/WhatsApp_Image_2026-02-27_at_23.56.48_qviras.jpg"
+                src="https://res.cloudinary.com/dkd3k6eau/image/upload/v1773726894/sam-portfolio_aivstv.jpg"
                 alt="Sampson Mbende - Full-Stack Developer"
                 className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-white dark:border-gray-800 shadow-2xl"
               />

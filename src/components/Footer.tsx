@@ -42,7 +42,7 @@ export default function Footer() {
 
           {/* Copyright */}
           <p className="text-gray-600 dark:text-gray-400 text-sm text-center">
-            © {currentYear} Portfolio 2026. All rights reserved.
+            © Sampson Mbende {currentYear} Portfolio. All rights reserved.
           </p>
         </div>
       </div>

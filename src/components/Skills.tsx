@@ -111,11 +111,13 @@ export default function Skills() {
           title: '',
           skills: [
             'Debugging',
+            'Design thinking',
             'Mobile-first & responsive UI',
             'API integration',
-            'Component-based architecture',
             'Agile methodologies',
-            'Design thinking',
+            'Component-based architecture',
+            
+            
           ],
         },
       ],
@@ -127,8 +129,8 @@ export default function Skills() {
           title: 'IBM Certified Skills',
           skills: [
             'Cryptography',
-            'Cyber Threat Analysis',
             'Threat Detection',
+            'Cyber Threat Analysis',            
             'Cyber Threat Intelligence',            
             'Vulnerability Management',
             'Incident Response',

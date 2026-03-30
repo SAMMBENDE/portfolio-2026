@@ -99,10 +99,13 @@ export default function About() {
             I&apos;m a Full-Stack JavaScript Engineer passionate about building scalable, high-performance digital products.
           </p>
           <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-            I specialize in React, Next.js, TypeScript, and Node.js — crafting modern web applications with clean architecture and seamless user experiences.
+            I specialize in React, Next.js, TypeScript, and Node.js — crafting modern web applications with clean architecture 
+            and seamless user experiences.
           </p>
           <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-            Beyond development, I&apos;m also a professional DJ with hundreds of live performances. Performing in front of diverse audiences has sharpened my creativity, adaptability, and ability to deliver under pressure — skills I bring into every project I build.
+            Beyond development, I&apos;m also a professional DJ with hundreds of live performances across major European cities. 
+            Performing in front of diverse audiences has sharpened my creativity, adaptability, and ability to deliver under pressure — 
+            skills I bring into every project I build.
           </p>
           <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
             I believe in continuous learning, shipping quality work, and building technology that makes a real impact.

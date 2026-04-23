@@ -71,11 +71,11 @@ export default function Skills() {
         },
         {
           title: 'Backend',
-          skills: ['Node.js', 'Express', 'REST APIs', 'Bash Scripting'],
+          skills: ['Node.js', 'Express', 'REST APIs', /* 'Bash Scripting' */],
         },
         {
           title: 'Command Line & OS',
-          skills: ['Linux', 'macOS', 'Windows', 'Command Line'],
+          skills: [/* 'Linux', */ 'macOS', 'Windows', 'Command Line'],
         },
       ],
     },
@@ -92,7 +92,13 @@ export default function Skills() {
         },
         {
           title: 'Cloud & DevOps',
-          skills: ['AWS', 'Docker', 'Cloudinary', 'Vercel', 'Hostinger'],
+          skills: [
+            { name: 'AWS', learning: true },
+            { name: 'Docker', learning: true },
+            'Cloudinary',
+            'Vercel',
+            'Hostinger',
+          ],
         },
         {
           title: 'AI & Automation',
@@ -193,14 +199,26 @@ export default function Skills() {
                     </h4>
                   )}
                   <div className="flex flex-wrap gap-2">
-                    {section.skills.map((skill, skillIndex) => (
-                      <span
-                        key={skillIndex}
-                        className="skill-tag px-4 py-2 bg-gradient-to-r from-primary to-secondary text-white rounded-full text-sm font-semibold hover:scale-110 hover:shadow-xl transition-all duration-300 cursor-default"
-                      >
-                        {skill}
-                      </span>
-                    ))}
+                    {section.skills.map((skill, skillIndex) => {
+                      const isLearning = typeof skill === 'object' && skill.learning
+                      const skillName = typeof skill === 'object' ? skill.name : skill
+                      return (
+                        <span
+                          key={skillIndex}
+                          title={isLearning ? 'Currently learning' : undefined}
+                          className={`skill-tag px-4 py-2 rounded-full text-sm font-semibold hover:scale-110 hover:shadow-xl transition-all duration-300 cursor-default ${
+                            isLearning
+                              ? 'border-2 border-dashed border-amber-400 bg-amber-50 dark:bg-amber-900/20 text-amber-700 dark:text-amber-400'
+                              : 'bg-gradient-to-r from-primary to-secondary text-white'
+                          }`}
+                        >
+                          {skillName}
+                          {isLearning && (
+                            <span className="ml-1 text-xs opacity-75">· learning</span>
+                          )}
+                        </span>
+                      )
+                    })}
                   </div>
                 </div>
               ))}

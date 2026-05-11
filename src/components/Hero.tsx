@@ -105,7 +105,7 @@ export default function Hero() {
               ref={titleRef}
               className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6"
             >
-              <span className="gradient-text">Hi, meet Sam Mbende</span>
+              <span className="gradient-text">Hi, I&apos;m Sam MBENDE</span>
             </h1>
 
             {/* Subtitle */}

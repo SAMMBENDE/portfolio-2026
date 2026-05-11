@@ -71,11 +71,11 @@ export default function Skills() {
         },
         {
           title: 'Backend',
-          skills: ['Node.js', 'Express', 'REST APIs', /* 'Bash Scripting' */],
+          skills: ['Node.js', 'Express', 'REST APIs', 'Bash Scripting'],
         },
         {
           title: 'Command Line & OS',
-          skills: [/* 'Linux', */ 'macOS', 'Windows', 'Command Line'],
+          skills: ['Linux',  'macOS', 'Windows', 'Command Line'],
         },
       ],
     },

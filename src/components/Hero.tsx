@@ -105,7 +105,7 @@ export default function Hero() {
               ref={titleRef}
               className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6"
             >
-              <span className="gradient-text">Hi, I&apos;m Sampson</span>
+              <span className="gradient-text">Hi, meet Sam Mbende</span>
             </h1>
 
             {/* Subtitle */}
@@ -113,10 +113,10 @@ export default function Hero() {
               ref={subtitleRef}
               className="text-xl sm:text-2xl md:text-3xl text-gray-700 dark:text-gray-300 mb-8"
             >
-              Full-Stack JavaScript Developer
+              Your Full-Stack JavaScript Developer
               <br />
               <span className="text-lg sm:text-xl text-gray-600 dark:text-gray-400">
-                Building scalable, high-performance web applications and digital products.
+                I build scalable, high-performance web applications and digital products.
               </span>
             </p>
 

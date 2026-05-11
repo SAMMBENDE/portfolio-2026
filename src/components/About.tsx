@@ -90,7 +90,7 @@ export default function About() {
         </h2>
 
         <p className="text-center text-gray-600 dark:text-gray-400 mb-12 max-w-3xl mx-auto text-lg">
-          Full-Stack JavaScript Engineer
+          Software Engineer
         </p>
 
         {/* About Content */}
